@@ -2,114 +2,115 @@
 <html lang="en">
 
 <head>
-    <title>Crystal Collectors</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Reset CSS, My custom CSS and then, Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<title>Crystal Collectors</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Reset CSS, My custom CSS and then, Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
 </head>
 
 <body>
-    <audio autoplay="autoplay" controls="controls">
-        <source src="./assets/images/nyan.mp3" audio autoplay="autoplay">
-    </audio>
-    <!-- Video -->
-    <video autoplay muted loop id="myVideo">
-        <source src="./assets/images/relax-wave.mp4" type="video/mp4">
-    </video>
-    <div id="container-fluid">
-        <div id="wrapper">
-            <h1>* Crystal Collectors *</h1>
-            <div id="instructions">
-                <marquee direction="up" scrollamount="8">
-                    <h3>Game Instructions:</h3>
-                    <br>
-                    <p>You will be given a random number at the start of the game.</p>
-                    <p> There are four crystals below. By clicking on a crystal you will add a specific amount of
-                        points to
-                        your total score.</p>
-                    <p> You win the game by matching your total score to the random number. You lose the game if your
-                        total
-                        score goes above the random number. </p>
-                    <p> Each time the game starts, the game will change the values of each crystal.</p>
-                    <img src="./assets/images/nyan-cat.gif" height="100" width="250">
-                </marquee>
-            </div>
-            <div class="container">
-                <div id="guessingNumber">
-                    <h2>Number to Guess:
-                        <span class="value"></span>
-                    </h2>
-                </div>
-                <div id="scoreboard">
-                    <h3>
-                        <span id="status"></span>
-                    </h3>
-                    <h3>Wins:
-                        <span id="win"></span>
-                    </h3>
-                    <h3>Losses:
-                        <span id="loss"></span>
-                    </h3>
-                </div>
-            </div>
-            <div id="crystals"></div>
-            <div id="totalScore">
-                <marquee direction="down" width="600" height="100" behavior="alternate">
-                    <marquee behavior="alternate">
-                        <h2 id="yts">Your Total Score is:
-                            <span id="yourScore">0</span>
-                        </h2>
-                    </marquee>
-                </marquee>
+<iframe src="https://ia801308.us.archive.org/0/items/NyanCatoriginal/Nyan%20Cat%20%5Boriginal%5D.mp3" frameborder="0"
+webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<!-- Video -->
+<video autoplay muted loop id="myVideo">
+<source src="./assets/images/relax-wave.mp4" type="video/mp4">
+</video>
+<div id="container-fluid">
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Made with:</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12"><a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities" target="_blank">
-                    <img src="./assets/images/yahoo-geo.jpg" alt="HTML tutorial" width="180" height="100">
-                </a></div>
-        </div>
+<div id="wrapper">
 
-    </div>
-    <!-- jQuery , My game.js and then, Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
-    <!-- Video -->
-    <script>
-        // Get the video
-        var video = document.getElementById("myVideo");
+<h1>* Crystal Collectors *</h1>
+<div id="instructions">
+<marquee direction="up" scrollamount="5" height="400px">
+<h3>Game Instructions:</h3>
+<br>
+<p>You will be given a random number at the start of the game.</p>
+<p> There are four crystals below. By clicking on a crystal you will add a specific amount of
+points to
+your total score.</p>
+<p> You win the game by matching your total score to the random number. You lose the game if your
+total
+score goes above the random number. </p>
+<p> Each time the game starts, the game will change the values of each crystal.</p>
+<img src="./assets/images/nyan-cat.gif" height="100" width="250">
+</marquee>
+</div>
+<div class="container">
+<div id="guessingNumber">
+<h2>Number to Guess:
+<span class="value"></span>
+</h2>
+</div>
+<div id="scoreboard">
+<h3>
+<span id="status"></span>
+</h3>
+<h3>Wins:
+<span id="win"></span>
+</h3>
+<h3>Losses:
+<span id="loss"></span>
+</h3>
+</div>
+</div>
+<div id="crystals"></div>
+<div id="totalScore">
+<marquee direction="down" width="600" height="100" behavior="alternate">
+<marquee behavior="alternate">
+<h2 id="yts">Your Total Score is:
+<span id="yourScore">0</span>
+</h2>
+</marquee>
+</marquee>
 
-        // Get the button
-        var btn = document.getElementById("myBtn");
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<h3>Made with:</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12"><a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities" target="_blank">
+<img src="./assets/images/yahoo-geo.jpg" alt="HTML tutorial" width="180" height="100">
+</a></div>
+</div>
 
-        // Pause and play the video, and change the button text
-        function myFunction() {
-            if (video.paused) {
-                video.play();
-                btn.innerHTML = "Pause";
-            } else {
-                video.pause();
-                btn.innerHTML = "Play";
-            }
-        }
-    </script>
-    <!-- Video -->
+</div>
+<!-- jQuery , My game.js and then, Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+crossorigin="anonymous"></script>
+<!-- Video -->
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+if (video.paused) {
+video.play();
+btn.innerHTML = "Pause";
+} else {
+video.pause();
+btn.innerHTML = "Play";
+}
+}
+</script>
+<!-- Video -->
 </body>
 
 </html>

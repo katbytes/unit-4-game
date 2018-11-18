@@ -1,107 +1,132 @@
 #container-fluid {
-    width: 75%;
-    height: 90%px;
-    padding-left: 25%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    color:#fff;
-    font-family: 'Spicy Rice', cursive;
+width: 75%;
+height: 90%px;
+padding-left: 25%;
+color:#fff;
+font-family: 'Spicy Rice', cursive;
 }
 body {
-    background-image: url("../images/chakra-ajna.png");
-    background-size: 75%;
-    color:#fff;
+background-image: url("../images/chakra-ajna.png");
+background-size: 75%;
+color:#fff;
 }
 h1{
-    color:#fff;
-    display:inline;
-    clear: both;
-    padding: 10px;
+color:#fff;
+clear: both;
+text-align: center;
 }
 .row {
-    align-content: center;
-    text-align: center;
-    color: white;
-    font-family: 'Papyrus' 
+align-content: center;
+text-align: center;
+color: white;
+font-family: 'Papyrus' 
 }
 #wrapper {
-    width: 100%;
-    max-width:960px;
-    margin: 0 auto;
+width: 100%;
+max-width:960px;
+margin: 0 auto;
 }
 #instructions {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.2em;
-    background-color:#000;
-    color: #fff;
-    text-decoration-color: bold, white;
-    clear:both;
-    padding:20px;
-    border-radius :10px;
-    filter:opacity(90%);
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    margin-top:30px;
+font-family: 'Libre Baskerville', serif;
+font-size: 1.2em;
+background-color:#000;
+color: #fff;
+text-decoration-color: bold, white;
+clear:both;
+padding:20px;
+border-radius :10px;
+filter:opacity(90%);
+letter-spacing: 2px;
+word-spacing: 2px;
+margin-top:30px;
 }
 #guessingNumber {
-    color: #fff;
-    float: left;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius :10px;
+color: #fff;
+float: left;
+display: inline-block;
+padding: 10px;
+margin-top: 20px;
+border-radius :10px;
+background: #000;
+border-radius :10px;
+filter:opacity(90%);
 }
 #scoreboard {
-    color: #fff;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 25px;
+color: #fff;
+display: inline-block;
+padding: 10px;
+margin-top: 20px;
+margin-left: 20px;
+border-radius: 25px;
+background: #000;
+border-radius :10px;
+filter:opacity(90%);
 }
 #crystals {
-    margin-top: 15px;
-    margin-bottom:26px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    align-content: center;
+margin-top: 15px;
+margin-bottom:26px;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+-webkit-align-content: center;
+align-content: center;
 }
 .crystalImage {
-    height: 111px;
-    border: solid 1px;
-    margin-left: 35px;
-    border-radius: 15px;
+margin: 0 auto;
+height: 130px;
+border-radius: 30px;
+padding: 10px;
 }
 .crystalImage:firstchild {
-    margin-left: 0px;
+margin-left: 0px;
 }
 #totalScore {
-    margin-bottom: 50px;
-    border-radius: 60px;
+width: 100%;
+margin-bottom: 20px;
 }
-#yts {
-    display: inline;
-    padding: 20px;
+#win {
+color:royalblue;
+padding-left: 10px;
+}
+#loss {
+color:red;
+padding-left: 10px;
+}
+.value {
+color: lightgreen;
+display: inline;
+padding: 20px;
+}
+#yourScore {
+color: yellow;
+display: inline;
+padding: 20px;
+}
+iframe {
+width: 100%;
+height: 0px;
 }
 /* --------- Video --------- */
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index:-1;
-    filter:opacity(70%);
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index:-1;
+filter:opacity(70%);
 }
 /* --------- Media Q. --------- */
 @media only screen and (min-width: 768px){
-    body{
-        width: auto;
-        height: auto;
-        margin: 1px;
-        padding: 10px;
-   }
+body{
+width: auto;
+height: auto;
+margin: 1px;
+padding: 10px;
+}
+.instructions {
+width: 50%;
+height: 50%;
+}
 }

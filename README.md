@@ -1,2 +1,2 @@
 # unit-4-game
-UCSD - Crystal Collector (gone mad)
+UCSD - Crystal Collector Game (gone mad)
